@@ -65,6 +65,13 @@ but.addEventListener("click", function(){
         dancer.style.position = "absolute";
         dancer.style.left = Math.random() * 90 + "%";
         dancer.style.top = Math.random() * 90 + "%";
+        dancer.style.transform = "scale(" + Math.random() * 5 +")";
+
+        let flip = Math.random();
+        console.log(flip);
+        if (flip <= 0.5) {
+            dancer.style.transform = "scaleX(-1)";
+        }
         dancer.style.opacity = Math.random();
         discofloor.appendChild(dancer);
     }

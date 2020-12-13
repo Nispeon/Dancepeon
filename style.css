@@ -15,9 +15,6 @@
     justify-content: center;
     transition: 0.5s;
     border: 25px solid white;
-    /* border-radius: 60px;
-    -moz-border-radius: 60px;  */
-    /* -webkit-border-radius: 6px; */
 }
 
 #disco button {
@@ -29,6 +26,7 @@
     font-size: larger;
     font-weight: 800;
     border-radius: 20px;
+    
 }
 
 #disco button:focus {

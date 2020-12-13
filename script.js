@@ -22,7 +22,7 @@ but.addEventListener("click", function(){
         
     }
 
-    window.setInterval(dancers, 1000);
+    window.setInterval(dancers, 500);
 
     function dancers() {
 

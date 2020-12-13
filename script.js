@@ -29,7 +29,7 @@ but.addEventListener("click", function(){
         let dancer = document.createElement("img");
         dancer.src = "./hyperespe.gif";
         dancer.style.position = "absolute";
-        dancer.style.left = Math.random() * 95 + "%";
+        dancer.style.left = Math.random() * 92 + "%";
         dancer.style.top = Math.random() * 87 + "%";
         dancer.style.transform = "scale(" + Math.random() * 4 +")";
 

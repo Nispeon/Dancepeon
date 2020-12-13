@@ -9,7 +9,7 @@
     background-color: black;
     width: 100%;
     position: absolute;
-    height: 100vH;
+    min-height: 100vH;
     display: flex;
     align-items: center;
     justify-content: center;

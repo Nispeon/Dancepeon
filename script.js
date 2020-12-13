@@ -30,8 +30,8 @@ but.addEventListener("click", function(){
         dancer.src = "./hyperespe.gif";
         dancer.style.position = "absolute";
         dancer.style.left = Math.random() * 95 + "%";
-        dancer.style.top = Math.random() * 90 + "%";
-        dancer.style.transform = "scale(" + Math.random() * 5 +")";
+        dancer.style.top = Math.random() * 87 + "%";
+        dancer.style.transform = "scale(" + Math.random() * 4 +")";
 
         let flip = Math.random();
         if (flip <= 0.5) {

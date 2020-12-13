@@ -22,13 +22,11 @@ but.addEventListener("click", function(){
         
     }
 
-    window.setInterval(dancers, 10);
+    window.setInterval(dancers, 100);
 
     function dancers() {
 
-        let c = 1;
-        console.log(c);
-        c++;
+        
 
         let dancer = document.createElement("img");
         dancer.src = "./hyperespe.gif";

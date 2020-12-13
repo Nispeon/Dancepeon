@@ -22,15 +22,19 @@ but.addEventListener("click", function(){
         
     }
 
-    window.setInterval(dancers, 1000);
+    window.setInterval(dancers, 10);
 
     function dancers() {
+
+        let c = 1;
+        console.log(c);
+        c++;
 
         let dancer = document.createElement("img");
         dancer.src = "./hyperespe.gif";
         dancer.style.position = "absolute";
         dancer.style.left = Math.random() * 92 + "%";
-        dancer.style.top = Math.random() * 87 + "%";
+        dancer.style.top = Math.random() * 89 + "%";
         dancer.style.transform = "scale(" + Math.random() * 4 +")";
 
         let flip = Math.random();

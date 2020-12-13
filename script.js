@@ -7,6 +7,8 @@ but.addEventListener("click", function(){
 
     document.getElementById("banger").play();
 
+
+
     window.setInterval(disco, 500);
     function disco() {
 
@@ -27,8 +29,8 @@ but.addEventListener("click", function(){
         let dancer = document.createElement("img");
         dancer.src = "./hyperespe.gif";
         dancer.style.position = "absolute";
-        dancer.style.left = Math.random() * 90 + "%";
-        dancer.style.top = Math.random() * 87 + "%";
+        dancer.style.left = Math.random() * 95 + "%";
+        dancer.style.top = Math.random() * 90 + "%";
         dancer.style.transform = "scale(" + Math.random() * 5 +")";
 
         let flip = Math.random();

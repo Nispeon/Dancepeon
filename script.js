@@ -34,7 +34,7 @@ but.addEventListener("click", function(){
 
         let shiny = Math.random();
 
-        if(shiny < 0.1) {
+        if(shiny < 0.12) {
             dancer.src = "./shyperespe.gif";
             console.log("Espeon n°" + count + " is a shiny !");
         } else {

@@ -24,12 +24,23 @@ but.addEventListener("click", function(){
 
     window.setInterval(dancers, 500);
 
+    let count = 0;
+
     function dancers() {
 
         
 
         let dancer = document.createElement("img");
-        dancer.src = "./hyperespe.gif";
+
+        let shiny = Math.random();
+
+        if(shiny < 0.1) {
+            dancer.src = "./shyperespe.gif";
+            console.log("Espeon n°" + count + " is a shiny !");
+        } else {
+            dancer.src = "./hyperespe.gif";
+        }
+
         dancer.style.position = "absolute";
         dancer.style.left = Math.random() * 92 + "%";
         dancer.style.top = Math.random() * 89 + "%";
@@ -42,7 +53,7 @@ but.addEventListener("click", function(){
         dancer.style.opacity = Math.random();
         discofloor.appendChild(dancer);
 
-
+        count++;
 
     }
 

@@ -37,8 +37,10 @@ but.addEventListener("click", function(){
         if(shiny < 0.12) {
             dancer.src = "./shyperespe.gif";
             console.log("Espeon n°" + count + " is a shiny !");
+            dancer.style.opacity = 1;
         } else {
             dancer.src = "./hyperespe.gif";
+            dancer.style.opacity = Math.random();
         }
 
         dancer.style.position = "absolute";
@@ -50,7 +52,6 @@ but.addEventListener("click", function(){
         if (flip <= 0.5) {
             dancer.style.transform = "scaleX(-1)";
         }
-        dancer.style.opacity = Math.random();
         discofloor.appendChild(dancer);
 
         count++;

@@ -1,7 +1,7 @@
 # Dancepeon
 Just a tiny project to make my friends laugh <br>
-You can see the result at : `https://www.nispeon.tk`<br>
-I was inspired by this : `https://matias.ma/nsfw/`
+You can see the result at : [https://www.nispeon.tk](https://www.nispeon.tk)<br>
+I was inspired by this : [https://matias.ma/nsfw/](https://matias.ma/nsfw/)
 
 <br>
 <br>
